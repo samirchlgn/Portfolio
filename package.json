@@ -1,0 +1,20 @@
+{
+  "name": "samir-chaulagain-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Samir Chaulagain — civil engineering, community and digital practice.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run build && npm test && node scripts/check.mjs",
+    "preview": "node scripts/dev.mjs --production"
+  },
+  "devDependencies": {
+    "happy-dom": "21.0.3"
+  }
+}
